@@ -58,7 +58,6 @@ button{
 }
 
 #userInput{
-    margin-bottom: 15%;
     margin-left: 42%;
     margin-top: 5%;
     font-weight: 600;
@@ -71,4 +70,6 @@ button{
 #submit{
     margin-left: 15%;
     margin-top: 2%;
+    background-color: rgb(59, 108, 232);
+    font-weight: 800;
 }

@@ -8,6 +8,10 @@
 
 
 
+    
+
+
+
 
 myBtn.addEventListener("click", function Calculate(){
     
@@ -44,5 +48,9 @@ myBtn.addEventListener("click", function Calculate(){
     randomTwo.innerHTML = "Random # 2  = " + answerTwo;
     Total.innerHTML = "Total = " + sum;
 });    
+
+
+
+
 
 
