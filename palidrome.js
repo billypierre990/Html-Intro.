@@ -38,32 +38,32 @@
 
 
 
-// var j=0;
+var j=0;
 
-// while(j<10){
+while(j<10){
 
 
-//     const Ask = prompt("Want to play Palidromes?");
+    const Ask = prompt("Want to play Palidromes?");
 
-//     if(Ask == 'yes'){
-//         //  take input
-//             const string = prompt('Enter a string:');
+    if(Ask == 'yes'){
+        //  take input
+            const string = prompt('Enter a string:');
 
-//         // call the function
-//             let value = palindromeChecker(string);
+        // call the function
+            let value = palindromeChecker(string);
 
-//         //Give the user the Result 
-//             result = alert(value);
+        //Give the user the Result 
+            result = alert(value);
 
-//             j++;
+            j++;
 
-//         }else if (Ask == "no"){
+        }else if (Ask == "no"){
 
-//             alert("Ok, Thank you")
+            alert("Ok, Thank you")
 
-//             j=10;
-//     };
-// };
+            j=10;
+    };
+};
        
 loginForm.addEventListener("submit", function checkInfo(){
     const fullName = firstName.value + " " + lastName.value;
