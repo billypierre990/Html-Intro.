@@ -1,5 +1,10 @@
 // Palidrome Game
     const Palidrome = document.getElementById("palidromeIdentify");
+    const firstName = document.getElementById("fname");
+    const lastName = document.getElementById("lname");
+    
+    
+    
 
 
     function palindromeChecker(string){
@@ -52,3 +57,5 @@ while(j<10){
     };
 };
        
+
+var fullName = firstName + " " + lastName

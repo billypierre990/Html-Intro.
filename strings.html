@@ -6,10 +6,23 @@
     <link rel="stylesheet" href="main.css">
     <title>Document</title>
 </head>
-<body>
-<h1 id="palidromeIdentify"></h1>
+<body id="string">
 
-<img src="Thrid Pics/palidrome image.png" alt="">
+<h1 id="palidromeIdentify">Do you know your Palidromes?</h1>
+
+
+<div id="userInput">
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input id="submit" type="submit" value="Submit">
+      </form>
+</div>
+
+
+<img id="palidrome" src="Thrid Pics/palidrome image.png" alt="">
 
     <script src="palidrome.js"></script>
 </body>

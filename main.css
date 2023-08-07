@@ -2,6 +2,9 @@ body{
     background-color: brown;
     color: black;
 }
+#string{
+    background-color: peru;  
+}
 
 nav{
     height: 6000px;
@@ -48,5 +51,24 @@ button{
     margin-bottom: 100px;
     font-style: bold;
     background-color: rgb(83, 83, 190);
+}
 
+#palidromeIdentify{
+    margin-left: 10%;
+}
+
+#userInput{
+    margin-bottom: 15%;
+    margin-left: 42%;
+    margin-top: 5%;
+    font-weight: 600;
+}
+
+#palidrome{
+    margin-left: 25%;  
+}
+
+#submit{
+    margin-left: 15%;
+    margin-top: 2%;
 }
